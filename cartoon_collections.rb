@@ -1,5 +1,5 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-def roll_call_dwarves # code an argument here
+def roll_call_dwarves (dwarves)# code an argument here
 dwarves.each do|dwarf|
   # Your code here
 end
