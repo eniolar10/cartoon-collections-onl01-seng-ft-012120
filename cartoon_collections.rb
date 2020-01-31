@@ -4,8 +4,12 @@ dwarves.each do|dwarf|
   # Your code here
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+def summon_captain_planet (planeteers)# code an argument here
+ planeteers.map do|planeteer|# Your code here
+ puts "#{planeteer_calls}!"
+ end
+ 
 end
 
 def long_planeteer_calls# code an argument here
