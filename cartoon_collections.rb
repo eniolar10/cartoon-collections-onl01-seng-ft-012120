@@ -22,7 +22,7 @@ end
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 def find_the_cheese (cheese_types)# code an argument here
-cheese_types.find
+find(cheese_types)
 
   # the array below is here to help
   
